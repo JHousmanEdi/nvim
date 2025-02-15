@@ -147,7 +147,7 @@
           # (nvim-treesitter.withPlugins (
           #   plugins: with plugins; [
           #     nix
-          #     lua
+          #     lu
           #   ]
           # ))
 
@@ -161,6 +161,7 @@
           { plugin = mini-indentscope; name = "mini.indentscope"; }
           { plugin = mini-pairs; name = "mini.pairs"; }
           { plugin = mini-surround; name = "mini.surround"; }
+          {plugin = mini-files; name="mini.files"};
           # you could do this within the lazy spec instead if you wanted
           # and get the new names from `:NixCats pawsible` debug command
         ];
