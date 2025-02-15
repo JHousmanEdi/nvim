@@ -67,7 +67,7 @@
     ];
 
     # see :help nixCats.flake.outputs.categories
-    # and
+    # and 
     # :help nixCats.flake.outputs.categoryDefinitions.scheme
     categoryDefinitions = { pkgs, settings, categories, extra, name, mkNvimPlugin, ... }@packageDef: {
       # to define and use a new category, simply add a new list to a set here, 
@@ -89,6 +89,7 @@
           stdenv.cc.cc
           lua-language-server
           nil # I would go for nixd but lazy chooses this one idk
+          nixd
           stylua
         ];
       };
@@ -143,6 +144,14 @@
           snacks-nvim
           nvim-treesitter-textobjects
           nvim-treesitter.withAllGrammars
+          yanky.nvim
+          mini-surround
+          inc-rename
+          snacks-nvim
+          
+
+
+
           # This is for if you only want some of the grammars
           # (nvim-treesitter.withPlugins (
           #   plugins: with plugins; [
@@ -162,6 +171,11 @@
           { plugin = mini-pairs; name = "mini.pairs"; }
           { plugin = mini-surround; name = "mini.surround"; }
           {plugin = mini-files; name="mini.files";}
+          {plugin = dial-nvim; nmame = "dial.nvim";}
+            {plugin = snacks-nvim; nmame = "snacks.nvim";}
+
+
+
           # you could do this within the lazy spec instead if you wanted
           # and get the new names from `:NixCats pawsible` debug command
         ];
