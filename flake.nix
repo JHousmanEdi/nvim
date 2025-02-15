@@ -144,11 +144,11 @@
           snacks-nvim
           nvim-treesitter-textobjects
           nvim-treesitter.withAllGrammars
-          yanky.nvim
+          yanky-nvim
           mini-surround
           inc-rename
           snacks-nvim
-          
+
 
 
 
