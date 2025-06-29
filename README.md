@@ -1,5 +1,4 @@
-# LazyVim distribution
+# 💤 LazyVim
 
-How to get the [LazyVim](http://www.lazyvim.org/) distribution up and running
-
-see the [kickstart-nvim template](../kickstart-nvim) for more info on the lazy wrapper or other utilities used.
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
