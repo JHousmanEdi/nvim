@@ -9,3 +9,6 @@ data
 **/.DS_Store
 .DS_Store
 
+
+# compiled binaries
+distant-aarch64-apple-darwin

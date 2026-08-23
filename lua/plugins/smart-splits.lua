@@ -1,5 +1,9 @@
 return {
   "mrjones2014/smart-splits.nvim",
+  commit = "c4afaf23141651845e6e1966d936d79ff8939e4d",
+  opts = {
+    ignored_filetypes = { "snacks_picker_list", "snacks_picker_input" },
+  },
   keys = {
     {
       "<C-h>",
@@ -57,62 +61,62 @@ return {
       end,
       desc = "Resize current window left",
     },
-    {
-      "<A-H>",
-      function()
-        require("smart-splits").swap_buf_right()
-      end,
-      desc = "swap_buf current window right",
-    },
-    {
-      "<A-J>",
-      function()
-        require("smart-splits").swap_buf_down()
-      end,
-      desc = "swap_buf current window down",
-    },
-    {
-      "<A-K>",
-      function()
-        require("smart-splits").swap_buf_up()
-      end,
-      desc = "swap_buf current window up",
-    },
-    {
-      "<A-L>",
-      function()
-        require("smart-splits").swap_buf_left()
-      end,
-      desc = "swap_buf current window left",
-    },
-
-    -- {
-    --   "<A-S-l>",
-    --   function()
-    --     require("smart-splits").swap_buf_right()
-    --   end,
-    --   desc = "swap_buf current window right",
-    -- },
-    -- {
-    --   "<A-S-j>",
-    --   function()
-    --     require("smart-splits").swap_buf_down()
-    --   end,
-    --   desc = "swap_buf current window down",
-    -- },
-    -- {
-    --   "<A-S-k>",
-    --   function()
-    --     require("smart-splits").swap_buf_up()
-    --   end,
-    --   desc = "swap_buf current window up",
-    -- },
-    -- {
-    --   "<A-S-h>",
-    --   function()
-    --     require("smart-splits").swap_buf_left()
-    --   end,
-    --   desc = "swap_buf current window left",
-    -- },
+    --     -- {
+    --     --   "<A-H>",
+    --     --   function()
+    --     --     require("smart-splits").swap_buf_right()
+    --     --   end,
+    --     --   desc = "swap_buf current window right",
+    --     -- },
+    --     -- {
+    --     --   "<A-J>",
+    --     --   function()
+    --     --     require("smart-splits").swap_buf_down()
+    --     --   end,
+    --     --   desc = "swap_buf current window down",
+    --     -- },
+    --     -- {
+    --     --   "<A-K>",
+    --     --   function()
+    --     --     require("smart-splits").swap_buf_up()
+    --     --   end,
+    --     --   desc = "swap_buf current window up",
+    --     -- },
+    --     -- {
+    --     --   "<A-h>",
+    --     --   function()
+    --     --     require("smart-splits").swap_buf_left()
+    --     --   end,
+    --     --   desc = "swap_buf current window left",
+    --     -- },
+    --
+    --     -- {
+    --     --   "<A-S-l>",
+    --     --   function()
+    --     --     require("smart-splits").swap_buf_right()
+    --     --   end,
+    --     --   desc = "swap_buf current window right",
+    --     -- },
+    --     -- {
+    --     --   "<A-S-j>",
+    --     --   function()
+    --     --     require("smart-splits").swap_buf_down()
+    --     --   end,
+    --     --   desc = "swap_buf current window down",
+    --     -- },
+    --     -- {
+    --     --   "<A-S-k>",
+    --     --   function()
+    --     --     require("smart-splits").swap_buf_up()
+    --     --   end,
+    --     --   desc = "swap_buf current window up",
+    --     -- },
+    --     -- {
+    --     --   "<A-S-h>",
+    --     --   function()
+    --     --     require("smart-splits").swap_buf_left()
+    --     --   end,
+    --     --   desc = "swap_buf current window left",
+    --     -- },
   },
 }
